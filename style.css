@@ -1,0 +1,64 @@
+div{
+    /* formas de escribir y referenciar un color */
+    color: red; /* nombre literal del color */
+    color: rgb(255, 0,0); /* valor rgb */
+    color: #FF0000; /* valor hexadecimal */
+ }
+
+
+/* Reseteo css o selector universal */
+/*
+*{
+  margin: 0;
+  padding: 0;
+} 
+*/
+
+ /* Con list-style:none; eliminamos los numeros y las viñetas de las listas, le sacamos el estilo por defecto */
+ol{
+     list-style: none;
+ }
+
+ul{
+    list-style: none;
+}
+
+/* ESTILOS DE TEXTO */
+
+.parrafo-seccion1{
+    /* color hace referencia al color del texto */
+    color: pink;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    /* El line-height se usa para establecer la distancia entre líneas de texto */
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.parrafo-seccion2{
+    color:cadetblue;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    /* El line-height se usa para establecer la distancia entre líneas de texto */
+    line-height: 3;
+    text-decoration: line-through;
+}
+
+/* ESTILOS DE BACKGROUND */
+
+.section1{
+    /* background-color: cornflowerblue; */
+    /* En la url podemos colocar una imagen que tengamos en nuestro proyecto, siempre referenciando
+    la ruta de la misma */
+    background-image: url("https://placekitten.com/200/200");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
